@@ -1,19 +1,15 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
-/* span {
-  background-color: black !important;
-} */
 
 h1, footer {
   color: white;
   font-weight: bold;
   font-style: normal;
   text-transform: uppercase;
-  /* text-decoration: ; */
   background-color: #124269;
   text-align: center;
-  text-shadow: 2px 2px 0px black;
+  text-shadow: 2px 2px 0px #c7b179;
   /* text-indent: -50px; */
   letter-spacing: 0px;
   word-spacing: 0px;
@@ -32,13 +28,12 @@ h2 {
 }
 
 a {
-  text-decoration: none;
   padding: 4px;
   margin-bottom: 7px;
 }
 
-.news, #about_us_notice {
-  background-color: chartreuse;
+.news, #about_us_notice, {
+  background-color: #8c7334;
 }
 
 td img {
@@ -46,7 +41,7 @@ td img {
 }
 
 a:hover {
-  background-color: navy;
+  background-color: #5d759c;
 }
 
 #firstname:active {
@@ -58,23 +53,13 @@ a:visited {
 }
 
 ul {
-  /* list-style-type: square; */
-  list-style: url("../images/blue_dot.png") square inside;
+  list-style-type: square;
+  list-style: url("../images/black.star.png") square inside;
 }
-
-/* ol {
-  list-style-type: upper-roman;
-  list-style-position: ;
-} */
 
 .about_us_photo {
   height: 150px;
   width: 150px;
-  /* background-color:  #124269; */
-  /* background-repeat: no-repeat;
-  background-position: 50px 150px; */
-  /* background-attachment: local; */
-  /* background-size: 50px 50px; */
   background: url("../images/human.repairing.acar.jpg") #124269 no-repeat 0 0px;
   background-size: contain;
   margin: 25px;
@@ -91,7 +76,7 @@ ul {
   border-style: dashed;
   overflow: hidden;
   box-sizing: border-box;
-  box-shadow: 15px 7px 0px blue;
+  box-shadow: 15px 7px 0px #b59743;
   position: relative;
   display: inline-block;
 } 
@@ -132,6 +117,13 @@ table {
   empty-cells: hide;
   /* border-spacing: 10px 5px; */
   border-collapse: collapse;
+  width: 100%;
+  border-style: solid;
+}
+
+table th {
+  color: white;
+  background-color: #664e0a;
 }
 
 #about_us_paragragh {
@@ -145,4 +137,29 @@ table {
 
 #description, td {
   font-weight: ;
+}
+
+p {
+  color: white;
+  background-color: #8c7334;
+}
+
+#product-container {
+  color: white;
+  background-color: #8c7334;
+}
+
+td, th {
+  border: 5px solid white;
+}
+
+#campaign h2 {
+  color: white;
+  background-color: #b59743;
+  text-align: right;
+  text-shadow: 2px 2px 0px #124269;
+}
+
+#container p {
+  text-align: center;
 }
