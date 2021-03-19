@@ -1,0 +1,148 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* span {
+  background-color: black !important;
+} */
+
+h1, footer {
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  /* text-decoration: ; */
+  background-color: #124269;
+  text-align: center;
+  text-shadow: 2px 2px 0px black;
+  /* text-indent: -50px; */
+  letter-spacing: 0px;
+  word-spacing: 0px;
+}
+
+h1 {
+  position: fixed;
+  width: 85%;
+  top: 0%;
+  margin-top: 0px;
+  height: 35px;
+}
+
+h2 {
+  margin-top: 45px;
+}
+
+a {
+  text-decoration: none;
+  padding: 4px;
+  margin-bottom: 7px;
+}
+
+.news, #about_us_notice {
+  background-color: chartreuse;
+}
+
+td img {
+  width: 250px;
+}
+
+a:hover {
+  background-color: gray;
+}
+
+#firstname:active {
+  background-color: yellow;
+}
+
+a:visited {
+  color: #b0095c;
+}
+
+ul {
+  /* list-style-type: square; */
+  list-style: url("../images/blue_dot.png") square inside;
+}
+
+/* ol {
+  list-style-type: upper-roman;
+  list-style-position: ;
+} */
+
+.about_us_photo {
+  height: 150px;
+  width: 150px;
+  /* background-color:  #124269; */
+  /* background-repeat: no-repeat;
+  background-position: 50px 150px; */
+  /* background-attachment: local; */
+  /* background-size: 50px 50px; */
+  background: url("../images/human.repairing.acar.jpg") #124269 no-repeat 0 0px;
+  background-size: contain;
+  margin: 25px;
+  padding: 15px;
+  /* border: 25px solid yellow;
+  border-style: outset;
+  outline: 25px solid yellow;
+  outline-style: inset;
+  outline-offset: 0px;
+  margin: 25px; */
+  border: 20px solid white;
+  /* border: 25px solid orange;
+  border-style: dotted; */
+  border-style: dashed;
+  overflow: hidden;
+  box-sizing: border-box;
+  box-shadow: 15px 7px 0px blue;
+  position: relative;
+  display: inline-block;
+} 
+
+span {
+  height: 400px;
+  width: 900px;
+  display: none;
+}
+
+/* body {
+  height: 95%;
+} */
+
+#pic1 {
+  background-image: url("../images/human.repairing.acar.jpg");
+  /* left: 105px;
+  top: 65px; */
+  z-index: 1;
+}
+
+#pic2 {
+  background-image: url("../images/human.maintaning.acar.jpg");
+  z-index: -1;
+}
+
+#pic3 {
+  background-image: url("../images/human.washing.acar.jpg");
+  /* margin-right: 100px; */
+}
+
+#container {
+  width: 85%;
+  margin: auto;
+}
+
+table {
+  empty-cells: hide;
+  /* border-spacing: 10px 5px; */
+  border-collapse: collapse;
+}
+
+#about_us_paragragh {
+  background-color: orange;
+  clear: both;
+}
+
+#about_us_pic {
+  float: right;
+}
+
+#description, td {
+  font-weight: ;
+}
